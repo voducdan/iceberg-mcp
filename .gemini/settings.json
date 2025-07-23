@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "iceberg-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "mcp/server.py"
+      ],
+      "env": {
+        "DATABASE_URL": "http://localhost:8888",
+        "ICEBERG_MINIO_USER": "admin",
+        "ICEBERG_MINIO_PASSWORD": "password"
+      },
+      "timeout": 15000
+    }
+  }
+}

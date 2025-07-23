@@ -1,0 +1,1 @@
+This repo is inspired by https://github.com/ryft-io/iceberg-mcp/tree/main
